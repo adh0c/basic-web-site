@@ -1,0 +1,77 @@
+/* ----Required layout code----*/
+
+.col-1 {width: 33.33%;}
+.col-2 {width: 66.66%;}
+.col-3 {width: 100%;}
+
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+/* ----End of required layout code----*/
+
+
+/* ----Formatting Code----*/
+
+body{
+	background-color: #dbd1cb;
+	font-family: "Verdana", sans-serif;
+}
+h1{
+	font-size: 5vw;
+	color:   #536473;
+}
+h3{
+	font-size: 3vw;
+	color:  #2e3532;	
+}
+p{
+	font-size: 1.5vw;
+	color:  #2e3532;	
+
+}
+.col-1 {
+	background-color:  #dbd1cb;
+}
+.col-2 {
+	background-color:  #dbd1cb;
+	padding: 80px;
+
+}
+.col-3 {
+	background-color:  #d9c6ba;
+	text-align: center;
+
+}
+img {
+	border: 5px solid #C7cedb; /* Add border to image */
+	width: 100%; /* Allows image to resize responsively */
+	max-width: 480px;  /* Stops image getting too large */
+}
+
+a {
+	padding: .5em; /* Add space around each list item */
+	margin-bottom: 7px; /* Add space between each button */
+	background-color: #8aa6bf; 
+	border-style: solid;
+	border-width: 4px;
+	border-top-color: #C7cedb;
+	border-left-color: #f0f5f5;
+	border-bottom-color: #536473;
+	border-left-color: #536473;
+	max-width: 250px; /* So it doesn't get too large */
+	text-align: center;
+	font-weight: bold;
+}
+
